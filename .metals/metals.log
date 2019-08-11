@@ -1,0 +1,2402 @@
+INFO  time: initialize in 0.38s
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+Jul 29, 2019 2:15:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 885,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\nval characters \u003d color.map(c \u003d\u003e c.toHexString);\n\nprintln(s\"characters ${characters.mkString(\\\",\u0027)}\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 231
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:15:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 231
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 231
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 231
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 29, 2019 2:15:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 886,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\nval characters \u003d color.map(c \u003d\u003e c.toHexString);\n\nprintln(s\"characters ${characters.mkString(\\\",)}\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 231
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:15:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 231
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 231
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 231
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+Jul 29, 2019 2:15:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 891,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\nval characters \u003d color.map(c \u003d\u003e c.toHexString);\n\nprintln(s\"characters ${characters.mkString(\\\",\\\")}\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 231
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:15:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 231
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 231
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 231
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+Jul 29, 2019 2:20:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1028,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 5\n\nval characters \u003d for( x \u003c- range; val chars +\u003d s\"0x${x.toHexString )\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n\nprintln(s\"characters ${characters.mkString(\",\")}\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 261
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:20:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 261
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 261
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 261
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 29, 2019 2:21:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1049,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 3\n\nval characters \u003d for( x \u003c- range; val chars +\u003d s\"0x${x.toHexString}\" ) chars\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n\n// println(s\"characters ${characters.mkString(\",\")}\")\nprintln(s\"characters ${characters.mkString()"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 263
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:21:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 263
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 263
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 263
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 29, 2019 2:21:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1053,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 3\n\nval characters \u003d for( x \u003c- range; val chars +\u003d s\"0x${x.toHexString}\" ) chars\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n\n// println(s\"characters ${characters.mkString(\",\")}\")\nprintln(s\"characters ${characters.mkStr"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 261
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:21:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 261
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 261
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 261
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 29, 2019 2:21:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1059,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 3\n\nval characters \u003d for( x \u003c- range; val chars +\u003d s\"0x${x.toHexString}\" ) chars\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n\n// println(s\"characters ${characters.mkString(\",\")}\")\nprintln(s\"characters ${characters"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 259
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:21:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 259
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 259
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 259
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 29, 2019 2:21:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1060,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 3\n\nval characters \u003d for( x \u003c- range; val chars +\u003d s\"0x${x.toHexString}\" ) chars\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n\n// println(s\"characters ${characters.mkString(\",\")}\")\nprintln(s\"characters ${character"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 259
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:21:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 259
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 259
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 259
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 29, 2019 2:21:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1061,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"cyan\" // \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 3\n\nval characters \u003d for( x \u003c- range; val chars +\u003d s\"0x${x.toHexString}\" ) chars\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n\n// println(s\"characters ${characters.mkString(\",\")}\")\nprintln(s\"characters ${characters"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 259
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:21:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 259
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 259
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 259
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+Jul 29, 2019 2:32:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1285,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"magenta\" // \"cyan\" \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 6\n\nval characters \u003d for(\n  x \u003c- range if color.size \u003e\u003d 6;\n  p \u003d color.charAt(x).toHexString\n) yield p\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n// println(s\"characters ${characters.mkString(\",\")}\")\nprintln(s\"characters ${characters}\")\n\nfor( x \u003c- 0 to 19 y \u003c- 1 to 5) println(s\"${y + x*5"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 313
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:32:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 313
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 313
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 313
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+Jul 29, 2019 2:35:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1327,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"magenta\" // \"cyan\" \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 6\n\nval characters \u003d for(\n  x \u003c- range if color.size \u003e\u003d 6;\n  p \u003d color.charAt(x).toHexString\n) yield p\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n// println(s\"characters ${characters.mkString(\",\")}\")\n// println(s\"characters ${characters}\")\n\nfor( x \u003c- 0 to 19; y \u003c- 1 to 5) print(s\"${y + x*5},${if (y \u003d\u003d 5) \"\\n}}\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 321
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:35:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 321
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 321
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 321
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 29, 2019 2:35:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+경고: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 1330,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/exam01.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "val name \u003d \"\"\n\nval matches \u003d name match {\n  case \"\" \u003d\u003e \"n/a\"\n  case input \u003d\u003e input\n}\n\n// println(s\"result $matches\")\n\nval amount: Double \u003d 0\n\nval result \u003d if (amount \u003e 0) \"greater\"\n  else if (amount \u003d\u003d 0) \"same\"\n  else if (amount \u003c 0) \"less\"\n\nval result2 \u003d amount match {\n  case t if(t \u003e 0) \u003d\u003e \"greater\"\n  case t if(t \u003d\u003d 0) \u003d\u003e \"same\"\n  case t if(t \u003c 0) \u003d\u003e \"less\"\n}\n\n// println(s\"result $result2\")\n\nval color \u003d \"magenta\" // \"cyan\" \"magenta\" \"yellow\"\n// val characters \u003d color.toList\n\nval range \u003d 0 to 6\n\nval characters \u003d for(\n  x \u003c- range if color.size \u003e\u003d 6;\n  p \u003d color.charAt(x).toHexString\n) yield p\n\n// val characters \u003d color.map(c \u003d\u003e c.toHexString)\n// println(s\"characters ${characters.mkString(\",\")}\")\n// println(s\"characters ${characters}\")\n\nfor( x \u003c- 0 to 19; y \u003c- 1 to 5) print(s\"${y + x*5},${if (y \u003d\u003d 5) \"\\n}\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 321
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 29, 2019 2:35:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+심각: Internal error: java.lang.ArrayIndexOutOfBoundsException: 321
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 321
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 321
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.67s
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.41s
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/exam01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+Jul 31, 2019 2:14:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+정보: Unsupported notification method: $/setTraceNotification
+Jul 31, 2019 2:14:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+정보: Unsupported notification method: $/setTraceNotification
+Jul 31, 2019 2:14:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+정보: Unsupported notification method: $/setTraceNotification
+INFO  no build target: using presentation compiler with only scala-library
+Jul 31, 2019 2:21:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+경고: Unmatched cancel notification for request id 241
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.48s
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/tail-recursion01.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/max.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/max.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/max.scala
+Jul 31, 2019 5:05:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 184,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/max.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def max(x: Int, y: Int, z: Int) \u003d {\n\n  def max(x: Int, y: Int) \u003d if(x \u003e y) x else y\n  max(x, max(y, z))\n}\n\nprintln(s\"max ${max(5,3,8)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 95
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:05:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 95
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 95
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 95
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/max.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/max.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/max.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/named-parameter.scala
+Jul 31, 2019 5:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 123,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", )"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 41
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 41
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 41
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 41
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 124,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", p)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 42
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 125,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", pr)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 42
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 126,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", pre)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 42
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 128,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefi)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 42
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 42
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 42
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 42
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 129,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefix)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 42
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 42
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 42
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 42
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 130,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefix\u003d)"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 43
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 43
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 43
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 43
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:12:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 131,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefix\u003d\"\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 44
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 44
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:12:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 133,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefix\u003d\"Mr\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 44
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 44
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:12:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 134,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefix\u003d\"Mr.\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 44
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 44
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 135,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefix\u003d\"Mr\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 44
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 44
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:13:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 136,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefix\u003d\"Mr\")\"\""
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 45
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:13:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 45
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 45
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 45
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jul 31, 2019 5:13:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+??: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 137,
+      "uri": "file:///Users/sungwookkim/Development/scala/practice/function/named-parameter.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "def greet(prefix: String, name: String) \u003d s\"$prefix $name\";\n\nprintln(s\"${greet(name\u003d\"sungwook\", prefix\u003d\"Mr\")"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:167)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:150)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:108)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:664)
+	... 15 more
+
+Jul 31, 2019 5:13:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+??: Internal error: java.lang.ArrayIndexOutOfBoundsException: 44
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 44
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 44
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.curr$1(ScalametaTokenizer.scala:164)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.emitContents$1(ScalametaTokenizer.scala:203)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.loop$1(ScalametaTokenizer.scala:233)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:278)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:31)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:290)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:21)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:10)
+	at scala.meta.internal.metals.TokenEditDistance$.apply(TokenEditDistance.scala:280)
+	at scala.meta.internal.metals.TokenEditDistance$.fromBuffer(TokenEditDistance.scala:300)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:22)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:966)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/named-parameter.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/vararg-parameter.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/parameter-group.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/parameter-group.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/parameter-group.scala
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/parameter-group.scala
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/parameter-group.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.4s
+WARN  no build tool detected in workspace '/Users/sungwookkim/Development/scala/practice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/sungwookkim/Development/scala/practice/function/parameter-group.scala
